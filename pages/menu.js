@@ -3,9 +3,7 @@ import { Text, View, StyleSheet, Button, Image  } from 'react-native';
 import { Header } from 'react-native-elements'
 
 export default class Menu extends React.Component {
-
-
-
+  
   clickFacef = () => {
     this.props.navigation.navigate('Facef')
   }
